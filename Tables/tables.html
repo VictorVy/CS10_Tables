@@ -9,18 +9,64 @@
 		<title> SC2 WCS 2019 </title>
 		
 		<style>
-		
+			
+			@font-face
+			{
+				font-family: squada;
+				src: url("Squada.ttf");
+			}
+			
 			body
 			{
 				background-image: url("bg.jpg");
 				background-size: 100%;
 				background-repeat: no-repeat;
+				font-family: squada;
+				font-size: 24px;
 			}
 			
 			#logo
 			{
 				width: 500px;
 				margin-left: calc(50% - 250px);
+			}
+			
+			#table
+			{
+				margin-left: auto;
+				margin-right: auto;
+				background-color: rgba(244, 244, 255, 0.65);
+				text-align: center;
+				border-collapse: collapse;
+			}
+			th, td
+			{
+				border: 2px solid black;
+			}
+			th
+			{
+				padding: 6px 12px;
+			}
+			td
+			{
+				padding: 4px 8px;
+			}
+			
+			.name
+			{
+				text-align: left;
+			}
+			.country
+			{
+				width: 36px;
+			}
+			.zerg
+			{
+				width: 36px;
+			}
+			.protoss
+			{
+				width: 26px;
 			}
 		
 		</style>
@@ -35,31 +81,31 @@
 		
 			<tr>
 				
-				<th> Rank </th> <th> Name </th> <th> Country </th> <th> Race </th> <th> Win Rate </th> <th> Prize Money (USD) </th>
+				<th> Rank </th> <th> Name </th> <th> Country </th> <th> Race </th> <th> Win-Rate </th> <th> Prize Money (USD) </th>
 				
 			<tr>
 			
 			<tr>
 				
-				
-				
-			<tr>
-			
-			<tr>
-				
-				
+				<td> 1 </td> <td class = "name"> Dark </td> <td> <img class = "country" src = "kr.png"> </td> <td> <img class = "zerg" src = "zerg.png"> </td> <td> 76% </td>
 				
 			<tr>
 			
 			<tr>
 				
-				
+				<td> 2 </td> <td class = "name"> Reynor </td> <td> <img class = "country" src = "italy.png"> </td> <td> <img class = "zerg" src = "zerg.png"> </td> <td> 57% </td>
 				
 			<tr>
 			
 			<tr>
 				
+				<td> 3 </td> <td class = "name"> Serral </td> <td> <img class = "country" src = "finland.png"> </td> <td> <img class = "zerg" src = "zerg.png"> </td> <td> 79% </td>
 				
+			<tr>
+			
+			<tr>
+				
+				<td> 4 </td> <td class = "name"> Classic </td> <td> <img class = "country" src = "kr.png"> </td> <td> <img class = "protoss" src = "protoss.png"> </td> <td> 55% </td>
 				
 			<tr>
 		
