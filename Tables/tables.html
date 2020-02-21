@@ -38,14 +38,16 @@
 				background-color: rgba(244, 244, 255, 0.65);
 				text-align: center;
 				border-collapse: collapse;
+				box-shadow: 0px 0px 8px 8px rgba(244, 244, 255, 0.65);
 			}
-			th, td
+			tr:hover:not(.headers)
 			{
-				border: 2px solid black;
+				background-color: rgba(225, 225, 244, 0.55);
 			}
 			th
 			{
 				padding: 6px 12px;
+				border-bottom: 3px solid #4b515c;
 			}
 			td
 			{
@@ -79,7 +81,7 @@
 		
 		<table id = "table">
 		
-			<tr>
+			<tr class = "headers">
 				
 				<th> Rank </th> <th> Name </th> <th> Country </th> <th> Race </th> <th> Win-Rate </th> <th> Prize Money (USD) </th>
 				
@@ -87,25 +89,25 @@
 			
 			<tr>
 				
-				<td> 1 </td> <td class = "name"> Dark </td> <td> <img class = "country" src = "kr.png"> </td> <td> <img class = "zerg" src = "zerg.png"> </td> <td> 76% </td>
+				<td> 1 </td> <td class = "name"> Dark </td> <td> <img class = "country" src = "kr.png"> </td> <td> <img class = "zerg" src = "zerg.png"> </td> <td> 76% </td> <td> $210,000 </td>
 				
 			<tr>
 			
 			<tr>
 				
-				<td> 2 </td> <td class = "name"> Reynor </td> <td> <img class = "country" src = "italy.png"> </td> <td> <img class = "zerg" src = "zerg.png"> </td> <td> 57% </td>
+				<td> 2 </td> <td class = "name"> Reynor </td> <td> <img class = "country" src = "italy.png"> </td> <td> <img class = "zerg" src = "zerg.png"> </td> <td> 57% </td> <td> $96,000 </td>
 				
 			<tr>
 			
 			<tr>
 				
-				<td> 3 </td> <td class = "name"> Serral </td> <td> <img class = "country" src = "finland.png"> </td> <td> <img class = "zerg" src = "zerg.png"> </td> <td> 79% </td>
+				<td> 3 </td> <td class = "name"> Serral </td> <td> <img class = "country" src = "finland.png"> </td> <td> <img class = "zerg" src = "zerg.png"> </td> <td> 79% </td> <td> $51,000 </td>
 				
 			<tr>
 			
 			<tr>
 				
-				<td> 4 </td> <td class = "name"> Classic </td> <td> <img class = "country" src = "kr.png"> </td> <td> <img class = "protoss" src = "protoss.png"> </td> <td> 55% </td>
+				<td> 4 </td> <td class = "name"> Classic </td> <td> <img class = "country" src = "kr.png"> </td> <td> <img class = "protoss" src = "protoss.png"> </td> <td> 55% </td> <td> $51,000 </td>
 				
 			<tr>
 		
